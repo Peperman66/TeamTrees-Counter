@@ -1,0 +1,20 @@
+{
+  "name": "teamtrees-counter",
+  "version": "1.0.0",
+  "description": "Attempt to make live TeamTrees counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peperman66/TeamTrees-Counter.git"
+  },
+  "author": "Peperman66",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peperman66/TeamTrees-Counter/issues"
+  },
+  "homepage": "https://github.com/Peperman66/TeamTrees-Counter#readme"
+}

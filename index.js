@@ -6,6 +6,9 @@ const app = express();
 const fs = require('fs');
 
 app.use(cors());
+app.get('/api/getTreeCount', (req, res) => {
+    require('./server/api/getTreeCount').getTreeCount(req, res);
+});
 app.use(express.static('website'));
 
 var server = app.listen(process.env.PORT || 80, function () {
